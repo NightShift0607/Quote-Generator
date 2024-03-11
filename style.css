@@ -14,6 +14,7 @@ body {
   font-weight: 700;
   text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -98,6 +99,33 @@ button:active {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.8rem;
+  justify-content: space-around;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #333;
+}
+
+.footer > img {
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.footer > img:hover {
+  content: url("./images/logo2.png");
 }
 
 @media screen and (max-width: 1000px) {
